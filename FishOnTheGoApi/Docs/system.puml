@@ -36,9 +36,9 @@ end note
 
 note right of FishingDataService  
 Orchestrates the data saving process 
-by uploading first to Cosmos, 
+by uploading image first to Google Storage, 
 retreiving the URL 
-then adding it to the Data sent to Google Storage
+then adding it to the Data sent to DB.
 end note
 
 
