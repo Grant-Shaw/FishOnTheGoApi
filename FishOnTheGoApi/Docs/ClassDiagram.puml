@@ -1,0 +1,16 @@
+@startuml ClassDiagram
+
+class FishingData {
+  +Id: int
+  +ImageUrl: String
+  +Method: String
+  +Bait: String
+  +Latitude: Double
+  +Longitude: Double
+  +FishSpecies: String
+  +FishWeight: Double
+  +FishLength: Double
+  +Temperature: Double
+  +Weather: String
+}
+

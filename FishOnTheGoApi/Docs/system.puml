@@ -1,0 +1,45 @@
+@startuml
+
+!define AzureBlue #007FFF
+!define GoogleGreen #0F9D58
+!define APIOrange #FF7F50
+
+skinparam monochrome true
+
+[User Interface]
+[FishingDataController]
+[FishingDataService]
+database Data {
+[DBService]
+() "IDBService" as IDBService
+}
+database Images{
+[GoogleCloudStorage]
+() "IGoogleCloudStorage" as IGoogleCloudStorage
+}
+() "IFishingDataService" as IFishingDataService
+
+
+[User Interface] --> [FishingDataController]
+[FishingDataController] --> IFishingDataService
+IFishingDataService --> FishingDataService
+[FishingDataService] --> IDBService
+FishingDataService --> IGoogleCloudStorage
+IGoogleCloudStorage --> GoogleCloudStorage
+IDBService --> DBService
+
+
+note right of [FishingDataController] 
+Receives requests from the client app 
+and triggers data saving
+end note
+
+note right of FishingDataService  
+Orchestrates the data saving process 
+by uploading first to Cosmos, 
+retreiving the URL 
+then adding it to the Data sent to Google Storage
+end note
+
+
+@enduml

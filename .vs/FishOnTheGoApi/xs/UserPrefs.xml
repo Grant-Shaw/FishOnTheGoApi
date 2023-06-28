@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{11205B77-B49D-4765-AAA7-4D4417DB7ADA}|Default">
+  <MonoDevelop.Ide.ItemProperties.FishOnTheGoApi PreferredExecutionTarget="/Applications/Vivaldi.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Resources.Database/Class1.cs">
+    <Files>
+      <File FileName="Resources.Abstractions/Class1.cs" Line="1" Column="1" />
+      <File FileName="Resources.Database/Class1.cs" Line="15" Column="19" />
+      <File FileName="../../../../../usr/local/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" Line="266" Column="5" />
+      <File FileName="Resources.Database/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" Line="4" Column="1" />
+      <File FileName="obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" Line="4" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FishOnTheGoApi" expanded="True">
+            <Node name="FishOnTheGoApi" expanded="True" />
+            <Node name="Resources.Abstractions" expanded="True" />
+            <Node name="Resources.Database" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <DisabledProjects>
+    <String>Resources.Abstractions/Resources.Abstractions.csproj</String>
+    <String>Resources.Database/Resources.Database.csproj</String>
+  </DisabledProjects>
+</Properties>
