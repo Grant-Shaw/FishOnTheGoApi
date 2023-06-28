@@ -1,4 +1,4 @@
-# FishOnTheGoApi Highly WIP
+# FishOnTheGoApi - WIP
 This is the codebase for the API which will be used by my application FishOnTheGo(name not final), more to be added soon.
 This will be an app based around fishing location data and tracking your catch. 
 
