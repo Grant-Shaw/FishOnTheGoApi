@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Resources.Abstractions.Models;
+using Resources.Abstractions;
 using Resources.Database;
 using Resources.GoogleCloud;
 

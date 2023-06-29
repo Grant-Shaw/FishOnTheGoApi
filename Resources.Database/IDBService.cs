@@ -1,6 +1,5 @@
-﻿using System;
-using System.Threading.Tasks;
-using Resources.Abstractions.Models;
+﻿using System.Threading.Tasks;
+using Resources.Abstractions;
 
 namespace Resources.Database
 {

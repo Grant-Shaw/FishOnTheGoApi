@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Resources.Abstractions.Models;
+﻿using System.Collections.Generic;
 
 namespace Resources.Abstractions
 {

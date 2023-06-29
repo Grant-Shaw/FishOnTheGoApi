@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using NSubstitute;
 using NUnit.Framework;
-using Resources.Abstractions.Models;
+using Resources.Abstractions;
 using Resources.Database;
 using Resources.GoogleCloud;
 

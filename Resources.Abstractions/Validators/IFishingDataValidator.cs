@@ -1,7 +1,4 @@
-﻿using System;
-using Resources.Abstractions.Models;
-
-namespace FishOnTheGoApi.Services;
+﻿namespace Resources.Abstractions;
 
 public interface IFishingDataValidator
 {

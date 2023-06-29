@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using Resources.Abstractions.Models;
+using Resources.Abstractions;
 
 namespace FishOnTheGoApi.Services;
 
