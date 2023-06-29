@@ -23,7 +23,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore ./FishOnTheGoApi.sln
     - name: Build
-      run: dotnet build FishOnTheGoApi/FishOnTheGoApi.csproj --no-restore
+      run: dotnet build ./FishOnTheGoApi.csproj --no-restore
     - name: Test
       run: dotnet test **/*.Tests.Unit.csproj --no-build --verbosity normal
 
