@@ -1,3 +1,12 @@
 .vs/
 *.suo
 *.user
+.vscode
+obj/
+bin/
+Resources.Abstractions/bin/
+Resources.Database/bin/
+Resources.Database/obj/
+FishOnTheGoApi/obj
+*/bin/
+*/obj/
