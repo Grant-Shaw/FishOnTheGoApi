@@ -5,8 +5,10 @@
 obj/
 bin/
 Resources.Abstractions/bin/
+Resources.Abstractions/obj
 Resources.Database/bin/
-Resources.Database/obj/
+Resources.Database/obj
 FishOnTheGoApi/obj
+FishOnTheGoApi/.vs
 */bin/
 */obj/
