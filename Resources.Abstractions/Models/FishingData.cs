@@ -1,4 +1,4 @@
-﻿namespace Resources.Abstractions;
+﻿namespace Resources.Abstractions.Models;
 
 public class FishingData
 {

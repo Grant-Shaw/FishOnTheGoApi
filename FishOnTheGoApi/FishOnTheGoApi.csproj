@@ -3,11 +3,16 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <ImplicitUsings>disable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+  <ProjectReference Include="..\Resources.Abstractions\Resources.Abstractions.csproj" />
+  <ProjectReference Include="..\Resources.GoogleCloud\Resources.GoogleCloud.csproj" />
+  <ProjectReference Include="..\Resources.Database\Resources.Database.csproj" />
   </ItemGroup>
 
 </Project>

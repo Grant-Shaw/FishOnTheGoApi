@@ -1,4 +1,6 @@
-﻿namespace FishOnTheGoApi;
+﻿using System;
+
+namespace FishOnTheGoApi;
 
 public class WeatherForecast
 {
