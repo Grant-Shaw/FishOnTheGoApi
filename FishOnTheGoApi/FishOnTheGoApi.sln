@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resources.Database", "..\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resources.GoogleCloud", "..\Resources.GoogleCloud\Resources.GoogleCloud.csproj", "{8AAE2783-4F41-4BC9-BD65-8E8BB28A8D1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishOnTheGoApi.Tests.Unit", "..\FishOnTheGoApi.Tests.Unit\FishOnTheGoApi.Tests.Unit.csproj", "{49DA01A9-32A0-4E12-9DAB-3DD5C4347228}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{8AAE2783-4F41-4BC9-BD65-8E8BB28A8D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AAE2783-4F41-4BC9-BD65-8E8BB28A8D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AAE2783-4F41-4BC9-BD65-8E8BB28A8D1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49DA01A9-32A0-4E12-9DAB-3DD5C4347228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49DA01A9-32A0-4E12-9DAB-3DD5C4347228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49DA01A9-32A0-4E12-9DAB-3DD5C4347228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49DA01A9-32A0-4E12-9DAB-3DD5C4347228}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
