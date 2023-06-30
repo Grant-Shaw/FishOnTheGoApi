@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using FishOnTheGoApi.Validators;
 using NSubstitute;
 using NUnit.Framework;
 using Resources.Abstractions;

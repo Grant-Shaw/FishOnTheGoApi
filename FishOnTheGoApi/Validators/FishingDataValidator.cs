@@ -1,6 +1,7 @@
 ﻿using System;
+using Resources.Abstractions;
 
-namespace Resources.Abstractions;
+namespace FishOnTheGoApi.Validators;
 
 public class FishingDataValidator : IFishingDataValidator
 {

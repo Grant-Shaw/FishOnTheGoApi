@@ -15,4 +15,10 @@
   <ProjectReference Include="..\Resources.Database\Resources.Database.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Validators\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Validators\" />
+  </ItemGroup>
 </Project>

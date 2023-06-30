@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Resources.Abstractions;
 using Resources.Database;
 using Resources.GoogleCloud;
+using FishOnTheGoApi.Validators;
 
 namespace FishOnTheGoApi.Services
 {
